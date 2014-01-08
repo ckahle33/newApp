@@ -1,0 +1,28 @@
+<head>
+  <title>newApp</title>
+</head>
+
+<body>
+ <h1>Favorite Musicians</h1>
+	{{> musician_list}}
+</body>
+
+
+	<template name="musician_list">
+		{{#each musicians}}
+		<ul>
+			{{> musician_info}}	
+		</ul>
+		{{else}}
+			No cats added, dawg.
+		{{/each}}
+	</template>
+
+<!--{{greeting}} -->
+
+<template name="musician_info">
+	<li>
+		{{name}}
+	</li>
+</template>
+
