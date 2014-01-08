@@ -1,6 +1,6 @@
 if (Meteor.isClient) {
   Template.hello.greeting = function () {
-    return "Welcome to newApp. Nice work. It updates on its own WTF";
+    return "Welcome to musician list bruh. Nice work. It updates on its own WTF";
   };
 
   Template.hello.events({
